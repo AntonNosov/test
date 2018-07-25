@@ -1,0 +1,28 @@
+._container {
+  min-width: 650px;
+}
+._container:before {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+.geek {
+  display: none;
+  min-width: 30px;
+  height: 30px;
+  bad-color: #fa6055;
+  color: #FFF;
+  border-radius: 0 0 5px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.js-msg .text {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 6px;
+}
